@@ -9,7 +9,7 @@ A simple tutorial to get started with Apache Confluent Kafka.
 
 Initially developped at LinkedIn, **Apache Kafka** is an event streaming platform capable of handling trillions of events a day. It is designed to reduce the pipelines complexity, handling streaming data at very large scale. 
 
-### **:small_orange_diamond: Kafka Architecture**
+### :triangular_flag_on_post: **Kafka Architecture**
 An instance of Kafka is called **Broker** and multiple brokers form a **Kafka Cluster**.
 The cluster is monitored by a cluster of **ZooKeepers** aimed to coordinate different brokers and keep important infomations such as configuration, security and etc.
 
