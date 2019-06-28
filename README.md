@@ -1,14 +1,15 @@
 # Apache Kafka & Confluent Kafka
-A simple tutorial to get started with Apache Kafka and Confluent Kafka.
+A simple tutorial to get started with Apache Confluent Kafka.
 
 
 
 
 
-# :small_orange_diamond: General presentation of Kafka
+# General presentation of Kafka
 
 Initially developped at LinkedIn, **Apache Kafka** is an event streaming platform capable of handling trillions of events a day. It is designed to reduce the pipelines complexity, handling streaming data at very large scale. 
 
+### **:small_orange_diamond: Kafka Architecture**
 An instance of Kafka is called **Broker** and multiple brokers form a **Kafka Cluster**.
 The cluster is monitored by a cluster of **ZooKeepers** aimed to coordinate different brokers and keep important infomations such as configuration, security and etc.
 
@@ -16,7 +17,7 @@ Systems send data to Kafka Cluster and data on Kafka can be consumed by any appl
 <br>
 Systems which write data to Kafka are called **Producers** and those who fetch data from Kafka are called **Consumers**.
 
-Data in Kafka
+### **Data in Kafka**
 
 The basic unit of data in Kafka is called **message** and they each message belongs to one **Topic**. A topic is a logical categorization of data.
 Whitin a topic, messages are organized into **partitions**. A partition is an ordered and immutable log file.
@@ -27,18 +28,18 @@ Whitin a topic, messages are organized into **partitions**. A partition is an or
 
 
 
-# :small_orange_diamond: Pre-requisites
+# Pre-requisites
 The following tutorial show command lines for **Linux** systems, for other OS please adapt the command lines to your computer system.
 
 For this tutorial, you should have installed **Confluent Platform**.
 
 
 
-# :small_orange_diamond: Install Confluent Platform
+# Install Confluent Platform
 
-# :small_orange_diamond: Topics
+# Topics
 
-# :small_orange_diamond: Produce messages
+# Produce messages
 
 # Consume messages
 
